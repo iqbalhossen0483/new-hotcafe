@@ -49,25 +49,41 @@ nav ul li a:hover{
 }
 
                 /*main*/
-.monthly_report_header, .todays_report_header{
+main h3{
+    margin-bottom: 4px;
+}
+
+.monthly_report_header, .todays_report_header, .stock_report_header{
     margin: 50px 0 10px;
     display: flex;
     justify-content: center;
 }
-.monthly_report_header > div, .todays_report_header > div{
+.monthly_report_header > div, .todays_report_header > div, .stock_report_header >div {
     background-color: rgba(255, 193, 35, 0.945);
     padding: 20px 40px;
 }
-.todays_wrap , .monthly_wrap{
+.todays_wrap , .monthly_wrap , .stock_wrap{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.todays_wrap > div , .monthly_wrap > div{
+.todays_wrap > div , .monthly_wrap > div , .stock_wrap > div{
     width: 135px;
     background-color: rgba(255, 193, 35, 0.945);
     margin: 5px;
     padding: 10px;
     text-align: center;
     box-shadow: 0 1px 2px gray;
+}
+footer{
+    height: 150px;
+    background-color: rgba(255, 193, 35, 0.945);
+    padding-top: 30px;
+    padding-bottom: 4px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
 }
