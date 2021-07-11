@@ -9,7 +9,7 @@ h1, h2, h3,h4{
         /*header section*/
 
 header{
-    background-color: #fffafc;
+    background-color: rgba(255, 193, 35, 0.945);
     height: 200px;
     box-shadow: 0 2px 2px rgba(153, 153, 153, 0.301);
 }
@@ -49,23 +49,23 @@ nav ul li a:hover{
 }
 
                 /*main*/
-.todays_report_header{
+.monthly_report_header, .todays_report_header{
     margin: 50px 0 10px;
     display: flex;
     justify-content: center;
 }
-.todays_report_header > div{
-    background-color: rgb(250, 250, 250);
+.monthly_report_header > div, .todays_report_header > div{
+    background-color: rgba(255, 193, 35, 0.945);
     padding: 20px 40px;
 }
-.todays_wrap{
+.todays_wrap , .monthly_wrap{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.todays_wrap > div{
+.todays_wrap > div , .monthly_wrap > div{
     width: 135px;
-    background-color: rgb(250, 250, 250);
+    background-color: rgba(255, 193, 35, 0.945);
     margin: 5px;
     padding: 10px;
     text-align: center;
