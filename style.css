@@ -3,10 +3,12 @@ body{
     font-family: sans-serif;
     color: #000;
 }
-h1, h2, h3,h4{
+h1, h2, h3,h4, h5{
     margin: 0;
 }
-        /*header section*/
+ /*------------------
+    header section
+ --------------------*/
 
 header{
     background-color: rgba(255, 193, 35, 0.945);
@@ -44,14 +46,13 @@ nav ul li a{
     padding: 5px 10px;
 }
 nav ul li a:hover{
- 
+ background-color: rgb(253, 183, 6);
     
 }
 
-                /*main*/
-main h3{
-    margin-bottom: 4px;
-}
+ /*---------------
+    main of Home
+ ----------------*/
 
 .monthly_report_header, .todays_report_header, .stock_report_header{
     margin: 50px 0 10px;
@@ -75,6 +76,28 @@ main h3{
     text-align: center;
     box-shadow: 0 1px 2px gray;
 }
+
+/*--------------------------
+ main of Today's sale page
+ ---------------------------*/
+
+.todays_page_wrap{
+    overflow: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto repeat(5, 1fr);
+    grid-template-rows: repeat(7, minmax(40px, auto));
+}
+
+.todays_page_wrap >div{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 3px 8px;
+}
+
+  /*---------------
+         footer 
+    --------------*/
 footer{
     height: 150px;
     background-color: rgba(255, 193, 35, 0.945);
